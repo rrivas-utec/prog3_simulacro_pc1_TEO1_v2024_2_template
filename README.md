@@ -1,4 +1,4 @@
-# Task #PC3: Simulacro Practica Calificada 3  
+# Task #PC3: Simulacro Practica Calificada 1  
 **course:** Programación III  
 **unit:** 6  
 **cmake project:** prog3_simulacro_pc1_TEO1_v2024_2
