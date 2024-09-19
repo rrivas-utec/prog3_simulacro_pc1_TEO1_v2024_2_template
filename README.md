@@ -118,7 +118,7 @@ Considerar las siguientes reglas simplificadas de validación de movimiento:
     board<Piece*, size, nullptr> chessBoard;
 
     // Colocar un Rey en posición inicial
-    chessBoard.add(0, 0, new King<char>(1));
+    chessBoard.add(0, 0, new King(1));
 
     // Intentar mover el Rey a una posición inválida
     auto result = chessBoard.move(0, 0, 3, 0);
@@ -134,7 +134,7 @@ Considerar las siguientes reglas simplificadas de validación de movimiento:
 
 ```cpp
     const int size = 6;
-    board<Piece*, size, empty_value> chessBoard;
+    board<Piece*, size, nullptr> chessBoard;
 
     // Colocar una Reina del jugador 1
     chessBoard.add(0, 1, new Queen(1));
