@@ -1,0 +1,4 @@
+limit_submissions: -1
+required_files: 
+  - mini_chess.h
+  - union_containers.h
